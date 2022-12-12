@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_006_GET_View List Doctors</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8027f55f-b058-422e-baca-89df37e24b95</testCaseGuid>
+</TestCaseEntity>

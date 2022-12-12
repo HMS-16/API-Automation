@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_API_Admin sign In</name>
+   <name>TC_012_POST_Add Appointment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>78921ba6-b54e-4eac-888b-77bbd3d1fe90</testCaseGuid>
+   <testCaseGuid>5b0f735a-97d6-4c44-a13f-90c7d6dc5c9e</testCaseGuid>
 </TestCaseEntity>

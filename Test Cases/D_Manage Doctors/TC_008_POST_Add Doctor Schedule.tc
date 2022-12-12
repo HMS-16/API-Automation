@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_008_POST_Add Doctor Schedule</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>096effb3-2e2a-4ebc-ac0c-31197d3f3694</testCaseGuid>
+</TestCaseEntity>
