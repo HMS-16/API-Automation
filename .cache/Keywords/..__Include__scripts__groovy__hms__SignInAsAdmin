@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "32C2FB0CD295BBBC6CA7C933D11FB6B9",
+  "keywordClasses": [
+    {
+      "name": "hms.SignInAsAdmin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

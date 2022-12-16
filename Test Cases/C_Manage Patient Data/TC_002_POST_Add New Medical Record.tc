@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_POST_Add New Medical Record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4aa76682-2207-4322-9924-4a1daa8e7d5c</testCaseGuid>
+</TestCaseEntity>

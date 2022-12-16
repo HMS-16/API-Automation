@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_POST_Add New Medical Diagnose</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05a4c8b5-dbf5-4b58-afd0-3f8384ccf69c</testCaseGuid>
+</TestCaseEntity>

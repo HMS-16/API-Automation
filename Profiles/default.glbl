@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzExNTk1MDAsImlhdCI6MTY3MTExNjMwMCwiaWQiOiIzNmJlYjMwMC00MGViLTQ4NmEtOGRlMS0zNzkxYzUzN2ViODkiLCJyb2xlIjoiYWRtaW4iLCJ1c2VybmFtZSI6ImFkbWluIn0.JJuW0HC14pkeaBJ7qK75Fhx_w2g0_e2N2hvvfF0t5_o'</initValue>
+      <name>tokenAdminWeb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEwNTIyMjcsImlhdCI6MTY3MTAwOTAyNywiaWQiOiIyYzNhOTU1My0xYTk1LTQ0NTQtOThjZC04YTAxMWVhYjhhZGEiLCJyb2xlIjoiYWRtaW4iLCJ1c2VybmFtZSI6ImFkbWluQGhtcy5jb20ifQ.Z2uGNKQTk893wjCxA4RCnr1Zl9zFPuqxm4fwStsFrrU'</initValue>
+      <name>tokenadminMobile</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
