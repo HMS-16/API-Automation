@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('Postman/1_admins/AdminWebSignIn', [('token') : GlobalVariable.tokenAdminWeb, ('username') : 'admin'
-            , ('variable') : 'admin']))
+def response = WS.sendRequest(findTestObject('Postman/1_admins/AdminWebSignIn', [('token') : GlobalVariable.tokenAdminWeb]))
 
+'def nilai = WS.getResponseStatusCode(response)'
+
+//'Verify if the response from "REST_Status Codes/POST_201" object returns the 201 status code'
+//WS.verifyResponseStatusCode(response, status)
+
+'System.out.println(nilai)'
+WS.verifyResponseStatusCode(response, Integer.parseInt(status))

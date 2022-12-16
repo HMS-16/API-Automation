@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;testing1\&quot;,\n    \&quot;password\&quot;: \&quot;testing1\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;: \&quot;$username\&quot;,\n    \&quot;password\&quot;: \&quot;$password\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

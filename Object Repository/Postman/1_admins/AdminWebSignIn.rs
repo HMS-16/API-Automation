@@ -44,32 +44,18 @@
       <name>token</name>
    </variables>
    <variables>
-      <defaultValue>'admin'</defaultValue>
+      <defaultValue>GlobalVariable.username_web</defaultValue>
       <description></description>
-      <id>c490ddf3-40b7-4dc0-8e2f-0c77ebad40bf</id>
+      <id>fb1f81c1-5f6f-4c95-a1c3-185ff3a1a2fd</id>
       <masked>false</masked>
       <name>username</name>
    </variables>
    <variables>
-      <defaultValue>'admin'</defaultValue>
+      <defaultValue>GlobalVariable.password_web</defaultValue>
       <description></description>
-      <id>e6921b92-cb12-4927-99b0-d942296446f8</id>
+      <id>cd9b808d-094b-4293-b2cf-3d0c7dd976a3</id>
       <masked>false</masked>
       <name>password</name>
-   </variables>
-   <variables>
-      <defaultValue>'200'</defaultValue>
-      <description></description>
-      <id>97e3f7f3-1f8e-4e58-88a2-14cb61e1a691</id>
-      <masked>false</masked>
-      <name>status</name>
-   </variables>
-   <variables>
-      <defaultValue>'success login'</defaultValue>
-      <description></description>
-      <id>c1bbb165-b518-4ef2-90a2-ce74431d4b5b</id>
-      <masked>false</masked>
-      <name>message</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -93,6 +79,7 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 //	
 //	assertThat(response.getResponseText()).contains('success login')
 //}
+
 
 
 
