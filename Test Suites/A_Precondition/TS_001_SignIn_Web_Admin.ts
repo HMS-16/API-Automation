@@ -15,40 +15,34 @@
       <guid>d85a3c6c-b8c7-4a00-bc66-c986268404b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/A_Precondition/TC_000_Admin_SignIn</testCaseId>
+      <testCaseId>Test Cases/Authentication/TC_000_Admin_SignIn</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c889ab75-7c1c-4af1-a72b-3b56d2f62e33</id>
+         <id>6c38f639-491b-43ee-a479-a564a1b49d4d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/SignIn_Admin_Website</testDataId>
+         <testDataId>Data Files/SignInInvalid</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>c889ab75-7c1c-4af1-a72b-3b56d2f62e33</testDataLinkId>
+         <testDataLinkId>6c38f639-491b-43ee-a479-a564a1b49d4d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>68a357fc-bb54-4b55-be17-2392a3eef095</variableId>
+         <variableId>dfe52a73-8f47-4da9-be3b-2d451353f5a2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c889ab75-7c1c-4af1-a72b-3b56d2f62e33</testDataLinkId>
+         <testDataLinkId>6c38f639-491b-43ee-a479-a564a1b49d4d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>e881d158-2705-4213-9bf2-122ed0cc0916</variableId>
+         <variableId>2fb68b00-10a5-4f6a-82c5-bef78903bfdb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c889ab75-7c1c-4af1-a72b-3b56d2f62e33</testDataLinkId>
+         <testDataLinkId>6c38f639-491b-43ee-a479-a564a1b49d4d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>status</value>
-         <variableId>5107d7bc-5655-4bd3-bab7-6bcc473ed903</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c889ab75-7c1c-4af1-a72b-3b56d2f62e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>message</value>
-         <variableId>3aec67f7-16cc-45be-aca1-3cef5fc34f23</variableId>
+         <variableId>52dea0aa-cf75-4ce8-9e74-ccb565679a48</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
