@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_002_Admin_Mobile_SignIn</name>
+   <name>TC_002_Admin_Mobile_Sign In</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c34fb675-7aa9-41c6-82eb-68aa9d0c35db</testCaseGuid>

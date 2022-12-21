@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_003_Admin_Mobile_SignIn Invalid</name>
+   <name>TC_003_Admin_Mobile_SignIn_Invalid</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>48e34f8d-7e71-4bbd-8c9c-fce2d8b76f87</testCaseGuid>
