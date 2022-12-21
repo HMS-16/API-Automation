@@ -18,12 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.lang.Integer as Integer
 
-def response = WS.sendRequest(findTestObject('null', [('token') : GlobalVariable.tokenAdminWeb]))
+def response = WS.sendRequest(findTestObject('A_Auth/REQ_01_Admin Web_Sign In', [('username') : 'admin', ('password') : 'admin']))
 
-'def nilai = WS.getResponseStatusCode(response)'
+WS.verifyResponseStatusCode(response, status)
+def datafile = findTestData('Data Files/A_Auth/Web_SignIn Valid')
 
-//'Verify if the response from "REST_Status Codes/POST_201" object returns the 201 status code'
-//WS.verifyResponseStatusCode(response, status)
-
-'System.out.println(nilai)'
-WS.verifyResponseStatusCode(response, Integer.parseInt(status))
+for (def Row = 1; Row <= datafile.getRowNumbers(); Row++) {
+	WS.verifyResponseStatusCode(response, status)
+}
+//

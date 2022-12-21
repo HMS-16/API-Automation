@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_Admin_SignIn Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0285c0aa-ce66-4a37-9499-1f85be40bd22</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>31a6bcc0-5f14-4888-aaa9-1281c86249d3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/A_Auth/Web_Sign In Invalid</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>31a6bcc0-5f14-4888-aaa9-1281c86249d3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>b85f5934-af2a-4532-a055-fff6a9b0c749</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>31a6bcc0-5f14-4888-aaa9-1281c86249d3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>6fd279de-e262-490f-a956-a679631d7e2d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b85f5934-af2a-4532-a055-fff6a9b0c749</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6fd279de-e262-490f-a956-a679631d7e2d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

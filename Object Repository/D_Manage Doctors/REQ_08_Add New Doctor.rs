@@ -19,7 +19,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;str_num\&quot;: \&quot;1423242341325678\&quot;,\n    \&quot;name\&quot;: \&quot;shaffa\&quot;,\n    \&quot;pob\&quot;: \&quot;kediri\&quot;,\n    \&quot;dob\&quot;: \&quot;02/15/2000\&quot;,\n    \&quot;gender\&quot;: \&quot;Male\&quot;,\n    \&quot;married\&quot;: false,\n    \&quot;phone_num\&quot;: \&quot;021312412312\&quot;,\n    \&quot;email\&quot;: \&quot;azhar@gmail.com\&quot;,\n    \&quot;last_education\&quot;: \&quot;universitas airlangga\&quot;,\n    \&quot;graduation_year\&quot;: 2020,\n    \&quot;exp_year\&quot;: 2,\n    \&quot;competency\&quot;: \&quot;Dermatologi\&quot;,\n    \&quot;address\&quot;: \&quot;j;. keputih tegal bakti\&quot;,\n    \&quot;district\&quot;: \&quot;sukolilo\&quot;,\n    \&quot;city\&quot;: \&quot;surabaya\&quot;,\n    \&quot;province\&quot;: \&quot;jawa timur\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;str_num\&quot;: \&quot;${str_num}\&quot;,\n    \&quot;name\&quot;: \&quot;${name}\&quot;,\n    \&quot;pob\&quot;: \&quot;${pob}\&quot;,\n    \&quot;dob\&quot;: \&quot;${dob}\&quot;,\n    \&quot;gender\&quot;: \&quot;${gender}\&quot;,\n    \&quot;married\&quot;: false,\n    \&quot;phone_num\&quot;: \&quot;${phone_num}\&quot;,\n    \&quot;email\&quot;: \&quot;${email}\&quot;,\n    \&quot;last_education\&quot;: \&quot;${last_education}\&quot;,\n    \&quot;graduation_year\&quot;: 2020,\n    \&quot;exp_year\&quot;: 2,\n    \&quot;competency\&quot;: \&quot;${competency}\&quot;,\n    \&quot;address\&quot;: \&quot;${address}\&quot;,\n    \&quot;district\&quot;: \&quot;${district}\&quot;,\n    \&quot;city\&quot;: \&quot;${city}\&quot;,\n    \&quot;province\&quot;: \&quot;${province}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -59,6 +59,97 @@
       <id>f28d314b-2bec-44b9-8536-f59154ce8f2e</id>
       <masked>false</masked>
       <name>token</name>
+   </variables>
+   <variables>
+      <defaultValue>'3243242343221111'</defaultValue>
+      <description></description>
+      <id>8696dda7-c648-48e9-9834-63d54940be36</id>
+      <masked>false</masked>
+      <name>str_num</name>
+   </variables>
+   <variables>
+      <defaultValue>'Agus'</defaultValue>
+      <description></description>
+      <id>5181f1d0-c3e7-4e10-9477-660a3a5410c6</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variables>
+   <variables>
+      <defaultValue>'kediri'</defaultValue>
+      <description></description>
+      <id>6c82dc4a-d056-427c-9e33-ba48c283a968</id>
+      <masked>false</masked>
+      <name>pob</name>
+   </variables>
+   <variables>
+      <defaultValue>'05/13/2002'</defaultValue>
+      <description></description>
+      <id>ed35d86a-69e8-4c2a-9ad5-fc3b7620e943</id>
+      <masked>false</masked>
+      <name>dob</name>
+   </variables>
+   <variables>
+      <defaultValue>'Male'</defaultValue>
+      <description></description>
+      <id>852ea17a-10d2-4373-80bb-c64b7f682563</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variables>
+   <variables>
+      <defaultValue>'08129123923189'</defaultValue>
+      <description></description>
+      <id>0c5a6bd0-857a-4fc4-9da4-da146ecd5f28</id>
+      <masked>false</masked>
+      <name>phone_num</name>
+   </variables>
+   <variables>
+      <defaultValue>'agus@gmail.com'</defaultValue>
+      <description></description>
+      <id>3f84e8a3-3795-4918-bf93-9fa7f03587ef</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
+   <variables>
+      <defaultValue>'unairr'</defaultValue>
+      <description></description>
+      <id>d247afd6-11d0-4d84-87b5-f14582691a56</id>
+      <masked>false</masked>
+      <name>last_education</name>
+   </variables>
+   <variables>
+      <defaultValue>'tooth'</defaultValue>
+      <description></description>
+      <id>43b80e9a-1f55-460f-a5e0-89fe9dd93c17</id>
+      <masked>false</masked>
+      <name>competency</name>
+   </variables>
+   <variables>
+      <defaultValue>'jl. keputih tegal bakti'</defaultValue>
+      <description></description>
+      <id>9f038849-354e-4d16-a6ae-5e094c84cde7</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variables>
+   <variables>
+      <defaultValue>'sukolilo'</defaultValue>
+      <description></description>
+      <id>56292780-def8-47bf-89bf-44fc3fbdf3de</id>
+      <masked>false</masked>
+      <name>district</name>
+   </variables>
+   <variables>
+      <defaultValue>'surabaya'</defaultValue>
+      <description></description>
+      <id>19fa4dbc-4b57-4af0-b5ab-77717f77f1e6</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variables>
+   <variables>
+      <defaultValue>'jawa timur'</defaultValue>
+      <description></description>
+      <id>5de9dca8-edba-4310-9496-58953c7d6c4d</id>
+      <masked>false</masked>
+      <name>province</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

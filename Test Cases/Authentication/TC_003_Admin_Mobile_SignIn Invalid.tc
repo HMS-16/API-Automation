@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_Admin_Mobile_SignIn Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48e34f8d-7e71-4bbd-8c9c-fce2d8b76f87</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>31a6bcc0-5f14-4888-aaa9-1281c86249d3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/A_Auth/Mobile_Sign In Invalid</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>31a6bcc0-5f14-4888-aaa9-1281c86249d3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>0f3935d9-254c-4498-ae56-41df4b2e4ff8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>31a6bcc0-5f14-4888-aaa9-1281c86249d3</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>68ea45bc-bee1-44d9-977a-f74f6c8a8e07</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f3935d9-254c-4498-ae56-41df4b2e4ff8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68ea45bc-bee1-44d9-977a-f74f6c8a8e07</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -24,21 +24,21 @@
       <variableId>52dea0aa-cf75-4ce8-9e74-ccb565679a48</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.username_web</defaultValue>
+      <defaultValue>'admin'</defaultValue>
       <description></description>
       <id>dfe52a73-8f47-4da9-be3b-2d451353f5a2</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.password_web</defaultValue>
+      <defaultValue>'admin'</defaultValue>
       <description></description>
       <id>2fb68b00-10a5-4f6a-82c5-bef78903bfdb</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.status</defaultValue>
+      <defaultValue>200</defaultValue>
       <description></description>
       <id>52dea0aa-cf75-4ce8-9e74-ccb565679a48</id>
       <masked>false</masked>
